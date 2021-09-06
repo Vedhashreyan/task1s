@@ -1,0 +1,70 @@
+.header{
+    background-color:#1870d5;
+    display: flex;
+    justify-content:center
+}
+body{
+    background-color: #8cd3ff;
+}
+h1{
+    color: black;
+    margin-left: 30px;
+}
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+a,h2,p{
+    text-align: center;
+    font-family:  Lucida Handwriting;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color:orange;
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+
+.item{
+    position: relative; 
+    border-radius: 30px;
+    background-color: white;
+    transform: scale(0.8);
+    width: 400px;
+ }
+
+.item p{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: scale(1.2);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 1;
+    position: relative; 
+    transform: scale(1.2);
+    border: 2px solid #000000;
+    border-radius: 50px;
+    
+} 
+
+
